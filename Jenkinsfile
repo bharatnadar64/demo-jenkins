@@ -10,7 +10,7 @@ pipeline {
 
             steps { 
 
-               git " https://github.com/bharatnadar64/demo-jenkins " 
+               git branch: 'main', url: 'https://github.com/bharatnadar64/demo-jenkins'
 
             } 
 
