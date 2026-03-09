@@ -4,7 +4,7 @@ pipeline {
         stage('Fetching File') {
             steps {
                 // Fixed: Changed curly quotes to straight quotes
-                git url: 'https://github.com/bharatnadar64/demo-jenkins'
+                git url: 'https://github.com/bharatnadar64/demo-jenkins.git'
             }
         }
         stage('Build') {
